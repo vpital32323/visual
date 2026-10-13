@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "visuals",
+  "version": "${version}",
+  "name": "Troizy Visuals",
+  "description": "Glass visuals: animated glass menu, crosshair editor, glass top bar (ping / fps / time).",
+  "authors": ["Troizy"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.troizy.visuals.VisualsClient"] },
+  "mixins": ["visuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
